@@ -64,7 +64,7 @@ class App extends React.Component {
         <KeepAwake />
         <Text style={styles.title}>Awake Always</Text>
         <View style={styles.buttons}>
-          <Button onPress={this.openFile} title="Open (.png)" />
+          <Button onPress={this.openFile} title="Open image" />
           {renderIf(loading)(<ActivityIndicator />)}
         </View>
         <View style={styles.zoomableWrapper}>
